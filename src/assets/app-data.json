@@ -1,0 +1,27 @@
+{
+  "app": {
+    "name": "Alain",
+    "description": "Ng-zorro admin panel front-end framework"
+  },
+  "user": {
+    "name": "Admin",
+    "avatar": "./assets/img/avatar.jpg",
+    "email": "test@qq.com"
+  },
+  "menu": [
+    {
+      "text": "主导航",
+      "i18n": "menu.main",
+      "group": true,
+      "hideInBreadcrumb": true,
+      "children": [
+        {
+          "text": "首页",
+          "i18n": "menu.dashboard.v1",
+          "link": "/dashboard/dashboard",
+          "icon": "anticon-dashboard"
+        }
+      ]
+    }
+  ]
+}
